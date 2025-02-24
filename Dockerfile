@@ -1,5 +1,4 @@
 FROM python:3.6
-MAINTAINER Ashok Bollepalli "pavan"
 COPY . /flasktest.py
 WORKDIR /flasktest.py
 EXPOSE 5000
